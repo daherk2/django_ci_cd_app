@@ -20,5 +20,6 @@ from Hey_Apple import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", v.index)
+    path("", v.index),
+    path("", v.teste)
 ]
