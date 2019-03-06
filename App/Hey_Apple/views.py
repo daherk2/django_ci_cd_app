@@ -7,3 +7,6 @@ def index(request):
 
 def teste(request):
     return HttpResponse("OK - TESTE")
+
+def teste1(request):
+    return HttpResponse("OK - TESTE1")
